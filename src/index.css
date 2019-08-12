@@ -2,3 +2,6 @@ body {
   font-family: sans-serif;
   background-color: #ecf0f1
 }
+.crossed{
+  text-decoration: line-through;
+}
