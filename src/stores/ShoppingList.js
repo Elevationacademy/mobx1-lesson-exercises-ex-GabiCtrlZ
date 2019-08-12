@@ -17,7 +17,7 @@ export class ShoppingList {
         let item = this.list.find(i => i.name === itemName)
         item.location = newLocation
     }
-    deleteItem = (itemName) => {
+    @action deleteItem = (itemName) => {
         this.list = this.list.filter(i => i.name !== itemName)
     } 
 }
